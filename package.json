@@ -1,0 +1,26 @@
+{
+  "name": "redis-url-shortener",
+  "version": "1.0.0",
+  "description": "Redis based url shortener",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tachRoutine/redis-url-shortener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tachRoutine/redis-url-shortener/issues"
+  },
+  "homepage": "https://github.com/tachRoutine/redis-url-shortener#readme",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "redis": "^5.6.1",
+    "shortid": "^2.2.17"
+  }
+}
