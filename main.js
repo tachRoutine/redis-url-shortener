@@ -27,7 +27,7 @@ function getRedisClient(key) {
   return redisClients[hash % redisClients.length];
 }
 
-app.post("shorten", async (req, res) => {
+app.post("/shorten", async (req, res) => {
   const url = req.body.url;
   if (!url) return res.status(400).send("URL is required");
   const id = shortId.generate();
